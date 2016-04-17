@@ -209,7 +209,7 @@ patch_fstab() {
 
 ## AnyKernel permissions
 # set permissions for included files
- chmod -R 755 $ramdisk
+chmod -R 755 $ramdisk
 
 ## Remove stock MPDecision
 mv $bindir/mpdecision $bindir/mpdecision-bak
